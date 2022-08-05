@@ -4,25 +4,38 @@ const shuffle = (array) => {
   return shuffled;
 };
 
-const prepContainer = document.querySelector('#prep');
-const lineContainer = document.querySelector('#line');
-const translationContainer = document.querySelector('#translation');
-const attributionContainer = document.querySelector('#attribution');
+let currentIndex = 0;
+const shuffled_remember = shuffle(remember);
+const contentContainer = document.querySelector('#content');
 
-// on window load, shuffle the content of remember
-window.onload = () => {
-  const shuffled_remember = shuffle(remember);
-  // inject prep, line, translation, and attribution into the containers
-  const first_element = shuffled_remember[0];
-  prepContainer.innerHTML += `${first_element.prep}`;
-  lineContainer.innerHTML += `${first_element.line}`;
-  translationContainer.innerHTML += first_element.translation
-    ? `${first_element.translation}`
+// inject prep, line, translation, and attribution into the containers given object
+const inject = (element) => {
+  document.querySelector(`#prep`).innerHTML = `${element.prep}`;
+  document.querySelector(`#line`).innerHTML = `${element.line}`;
+  document.querySelector(`#translation`).innerHTML = element.translation
+    ? `${element.translation}`
     : '';
-  attributionContainer.innerHTML += first_element.attribution
-    ? `${first_element.attribution}`
+  document.querySelector(`#attribution`).innerHTML = element.attribution
+    ? `-${element.attribution}-`
     : '';
 };
 
-// on click, change prep, line, translation, and attribution to the next element in the shuffled_remember
-window.onclick = () => {};
+// on window load, shuffle the content of remember
+window.onload = () => {
+  const first_element = shuffled_remember[currentIndex];
+  inject(first_element);
+};
+
+// on click, change prep, line, translation, and attribution to the next element in the shuffled_remember array
+window.addEventListener('click', () => {
+  currentIndex == shuffled_remember.length - 1
+    ? (currentIndex = 0)
+    : (currentIndex += 1);
+  const next_element = shuffled_remember[currentIndex];
+
+  contentContainer.classList.add('hidden');
+  setTimeout(() => {
+    inject(next_element);
+    contentContainer.classList.remove('hidden');
+  }, 500);
+});

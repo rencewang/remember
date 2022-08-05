@@ -96,7 +96,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: "most things don't exist. The Ford Motor Company hardly exists. It's just a time-saving expression for a collection of financial interests",
+    line: "most things don't exist. The Ford Motor Company hardly exists. It's just a time-saving expression for a collection of financial interests. But the here and now do",
     attribution: 'Succession',
   },
   {
@@ -310,7 +310,7 @@ const remember = [
   },
   {
     prep: 'to',
-    line: 'take a picture of some clouds',
+    line: 'fall',
   },
   {
     prep: 'that',
