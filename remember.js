@@ -1,4 +1,4 @@
-export const remember = [
+const remember = [
   {
     prep: 'that',
     line: 'you are loved',
@@ -12,6 +12,12 @@ export const remember = [
     prep: 'that',
     line: '即便如此，也没关系',
     translation: '',
+  },
+  {
+    prep: 'that',
+    line: '成为了这样的大人，并不可耻',
+    translation: '',
+    attribution: '尽管如此，还是',
   },
   {
     prep: 'that',
