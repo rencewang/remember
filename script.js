@@ -26,33 +26,11 @@ window.onload = () => {
   inject(first_element);
 };
 
-// throttle the function to prevent the function from being called too frequently
-const throttle = function (func, delay) {
-  // If setTimeout is already scheduled, no need to do anything
-  let timerId;
-  if (timerId) {
-    return;
-  }
-  // Schedule a setTimeout after delay seconds
-  timerId = setTimeout(() => {
-    func();
-    timerId = undefined;
-  }, delay);
-};
-
-// change prep, line, translation, and attribution to the next element in the shuffled_remember array
-const next = () => {};
-
-// on click, call next function
+// on click, change prep, line, translation, and attribution to the next element in the shuffled_remember array
 window.addEventListener('click', () => {
   currentIndex == shuffled_remember.length - 1
     ? (currentIndex = 0)
     : (currentIndex += 1);
   const next_element = shuffled_remember[currentIndex];
-
-  contentContainer.classList.add('hidden');
-  setTimeout(() => {
-    inject(next_element);
-    contentContainer.classList.remove('hidden');
-  }, 500);
+  inject(next_element);
 });
