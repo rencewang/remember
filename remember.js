@@ -6,73 +6,69 @@ const remember = [
   {
     prep: 'that',
     line: '你把自己照顾得那么好，愿你遇见另一个自由而独立的灵魂，分享彼此的世界。即便没有遇见，也是很好的：你终究是自由的',
-    translation: '',
+    translation:
+      "you take care of yourself so well. May you find another free and independent soul, and share each other's worlds. Even if you do not, it's all good. At the end of the day, you are free",
   },
   {
     prep: 'that',
     line: '即便如此，也没关系',
-    translation: '',
+    translation: 'even so, everything will be fine',
   },
   {
     prep: 'that',
     line: '成为了这样的大人，并不可耻',
-    translation: '',
+    translation: 'becoming adults like this is not a shame',
     attribution: '尽管如此，还是',
   },
   {
     prep: 'that',
-    line: '我就是我自己的神，在我活的地方',
-    translation: '',
+    line: '你就是你自己的神，在你活的地方',
+    translation: 'you are your own god',
     attribution: '倔强',
   },
   {
     prep: 'that',
     line: '红颜会知己，知音不会难觅',
-    translation: '',
+    translation: 'love will find you, friends will not be gone',
     attribution: '闪光的回忆',
   },
   {
     prep: 'that',
-    line: '你就是你自己的神，在你活的地方',
-    translation: '',
-    attribution: '',
-  },
-  {
-    prep: 'that',
     line: '人回来，就会离开',
-    translation: '',
+    translation: 'people might come, and so they might leave',
     attribution: '路过人间',
   },
   {
     prep: 'that',
     line: '每个人只能陪你走一段路',
-    translation: '',
+    translation: 'everyone can only be with you for a part of the way',
     attribution: '山河故人',
   },
   {
-    prep: 'that',
+    prep: 'to',
     line: '迷茫的时候走难走的路',
-    translation: '',
+    translation: "choose the difficult path when you're scared",
   },
   {
     prep: 'that',
     line: '你不需要去刻意迎合，真实的你，就很好',
-    translation: '',
+    translation: "you don't need to pretend to fit in, the real you is enough",
   },
   {
     prep: 'that',
     line: '我们每个人都在努力跨过所有不如意和悲伤。终究他会逆流成河，我们却会克服而徜徉其中，一路逆风',
-    translation: '',
   },
   {
     prep: 'that',
     line: '我的粉底和眼霜真的很贵，每一滴泪水都要留给值得的人',
-    translation: '',
+    translation:
+      'my concealer and eye concentrates are really expensive, so I save every drop of my tears for someone worthy',
   },
   {
     prep: 'that',
     line: '但风向是会转变的，终有一天，会吹向更有光亮的地方',
-    translation: '',
+    translation:
+      'still, the winds change direction, and someday, they will blow towards a brighter place',
     attribution: 'Genshin Impact',
   },
   {
@@ -122,45 +118,45 @@ const remember = [
   {
     prep: 'that',
     line: '生活不可能像你想象得那么好，但也没有你想象得那么糟。 人的脆弱和坚强都超乎自己的想象。 有时，可能一句话就泪流满面；有时，回过头也发现自己咬着牙走了很长的路。',
-    translation: '',
+    translation:
+      "life will not be as amazing as you imagine, but not as terrible as you imagine either. Our strengths and softness are beyond our imaginations. Sometimes, one sentence is enough to make tears fall; sometimes, you will turn around and see how far you've gone, gritting your teeth",
   },
   {
     prep: 'that',
     line: '自己的选择要自己负责，没有任何抱歉',
-    translation: '',
+    translation: "one has to be responsible for one's own choices",
     attribution: '不想放开',
   },
   {
     prep: 'that',
     line: '死的人就一直死了，可我们还要活下去',
-    translation: '',
+    translation: 'the dead will stay dead, but we must carry on',
   },
   {
     prep: 'that',
     line: '哪有什么岁月静好，有人替你负重前行',
-    translation: '',
   },
   {
     prep: 'that',
     line: '你当时相信的那些事情，会在如今变成美丽风景',
-    translation: '',
+    translation:
+      'the things you believed then, will become the fantastic spectacle of today',
     attribution: '顽固',
   },
   {
     prep: 'that',
     line: '20年后的你还是你，不一样的烟火',
-    translation: '',
+    translation: 'the you in 20 years will still be the same you',
     attribution: '我就是我',
   },
   {
     prep: 'to',
     line: '化好妆，继续前行',
-    translation: '',
+    translation: 'put your makeup on, and keep on going',
   },
   {
     prep: 'to',
     line: '想好了，就去做',
-    translation: '',
   },
   {
     prep: 'that',
