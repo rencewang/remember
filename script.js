@@ -4,7 +4,7 @@ const shuffle = (array) => {
   return shuffled;
 };
 
-let currentIndex = 0;
+let currentIndex = -1;
 const shuffled_remember = shuffle(remember);
 const contentContainer = document.querySelector('#content');
 
@@ -18,12 +18,6 @@ const inject = (element) => {
   document.querySelector(`#attribution`).innerHTML = element.attribution
     ? `-${element.attribution}-`
     : '';
-};
-
-// on window load, shuffle the content of remember
-window.onload = () => {
-  const first_element = shuffled_remember[currentIndex];
-  inject(first_element);
 };
 
 // on click, change prep, line, translation, and attribution to the next element in the shuffled_remember array

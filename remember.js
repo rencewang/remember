@@ -1,13 +1,9 @@
 const remember = [
   {
     prep: 'that',
-    line: 'you are loved',
-  },
-  {
-    prep: 'that',
     line: '你把自己照顾得那么好，愿你遇见另一个自由而独立的灵魂，分享彼此的世界。即便没有遇见，也是很好的：你终究是自由的',
     translation:
-      "you take care of yourself so well. May you find another free and independent soul, and share each other's worlds. Even if you do not, it's all good. At the end of the day, you are free",
+      "you take care of yourself so well. May you find another free and independent soul, and share each other's worlds. Even if you don't, it's all good. At the end of the day, you are free",
   },
   {
     prep: 'that',
@@ -68,7 +64,7 @@ const remember = [
     prep: 'that',
     line: '但风向是会转变的，终有一天，会吹向更有光亮的地方',
     translation:
-      'still, the winds change direction, and someday, they will blow towards a brighter place',
+      'still, the winds may change directions, and someday, they will blow towards a brighter and warmer place',
     attribution: 'Genshin Impact',
   },
   {
@@ -83,7 +79,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: "some day when you get where you're going, you'll look around and you will know that it was you and the people who love you who put you there — and that will be the greatest feeling in the world",
+    line: "some day when you get to where you're going, you'll look around and you will know that it was you and the people who love you who put you there — and that will be the greatest feeling in the world",
     attribution: 'Taylor Swift',
   },
   {
@@ -92,7 +88,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: "most things don't exist. The Ford Motor Company hardly exists. It's just a time-saving expression for a collection of financial interests. But the here and now do",
+    line: "most things don't exist (the Ford Motor Company hardly exists: it's just a time-saving expression for a collection of financial interests), but the here and now do",
     attribution: 'Succession',
   },
   {
@@ -152,7 +148,7 @@ const remember = [
   {
     prep: 'to',
     line: '化好妆，继续前行',
-    translation: 'put your makeup on, and keep on going',
+    translation: 'put your makeup on and keep going',
   },
   {
     prep: 'to',
@@ -339,7 +335,7 @@ const remember = [
     prep: 'that',
     line: '时间会回答成长，成长会回答梦想',
     translation:
-      'time will answer growing up, growing up will answer your dream',
+      'time will answer the process of growing up, growing up will answer your dream',
     attribution: '入海',
   },
   {
@@ -375,10 +371,10 @@ const remember = [
     prep: 'that',
     line: '我与他终究都是尘世中人，上天赐给我们最好的天时地利，只在眼下这一瞬。我若抓不住，到了明日，世事浮云，人心惟危，皆是瞬息万变，也许他不再爱我，我不再爱他，那时候翻思今日的面红心热辗转反侧，只会遗憾错失了良机',
     translation:
-      "He and I are not saints. Fate has given us the best of times in this moment. If I cannot hold on to this moment, when tomorrow comes, everything might change. Maybe he won't love me, I won't love him. At that time, when I think of today's tossing and turning, anticipation and passion, I will only regret how much we missed.",
+      "he and I are not saints. Fate has given us the best of times in this moment. If I cannot hold on to this moment, when tomorrow comes, everything might change. Maybe he won't love me, I won't love him. At that time, when I think of today's tossing and turning, anticipation and passion, I will only regret how much we missed.",
   },
   {
-    prep: 'that',
+    prep: 'to',
     line: '色禁重，香禁重，这世间万物，皆是淡胜于浓',
     translation:
       'refrain from strong scents and strong passions, all things in this world come better light than strong',
