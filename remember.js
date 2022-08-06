@@ -245,7 +245,21 @@ const remember = [
   },
   {
     prep: 'to',
-    line: 'call your parents',
+    line: 'call your parents this week',
+  },
+  {
+    prep: 'that',
+    line: 'you are still alive',
+    attribution: 'Still Alice',
+  },
+  {
+    prep: 'to',
+    line: 'live in the moment',
+  },
+  {
+    prep: 'to',
+    line: 'not beat yourself up too much',
+    attribution: 'Still Alice',
   },
   {
     prep: 'that',
