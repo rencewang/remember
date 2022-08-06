@@ -4,6 +4,18 @@ const shuffle = (array) => {
   return shuffled;
 };
 
+const throttle = (delay, fn) => {
+  let lastCall = 0;
+  return function wrapper(...args) {
+    const now = new Date().getTime();
+    if (now - lastCall < delay) {
+      return;
+    }
+    lastCall = now;
+    return fn(...args);
+  };
+};
+
 let currentIndex = -1;
 const shuffled_remember = shuffle(remember);
 const contentContainer = document.querySelector('#content');
@@ -20,11 +32,14 @@ const inject = (element) => {
     : '';
 };
 
-// on click, change prep, line, translation, and attribution to the next element in the shuffled_remember array
-window.addEventListener('click', () => {
+// change prep, line, translation, and attribution to the next element in the shuffled_remember array
+const changeContent = () => {
   currentIndex == shuffled_remember.length - 1
     ? (currentIndex = 0)
     : (currentIndex += 1);
   const next_element = shuffled_remember[currentIndex];
   inject(next_element);
-});
+};
+
+// on throttle clicks by 500ms, change the content
+window.addEventListener('click', throttle(500, changeContent));
