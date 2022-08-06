@@ -18,7 +18,7 @@ const throttle = (delay, fn) => {
 
 let currentIndex = -1;
 const shuffled_remember = shuffle(remember);
-const contentContainer = document.querySelector('#content');
+const rememberContainer = document.querySelector('#remember');
 
 // inject prep, line, translation, and attribution into the containers given object
 const inject = (element) => {
@@ -32,14 +32,39 @@ const inject = (element) => {
     : '';
 };
 
+// inject prep, line, translation, and attribution into a newly created div
+const injectNew = (element) => {
+  document.querySelector('#content').remove();
+  const newElement = document.createElement('section');
+  newElement.id = 'content';
+  newElement.innerHTML = `
+    <div id="prep">${element.prep}</div>
+    <div id="translation">${
+      element.translation ? element.translation : ''
+    }</div>
+    <div id="line">${element.line}</div>
+    <div id="attribution">${
+      element.attribution ? element.attribution : ''
+    }</div>
+    `;
+  rememberContainer.appendChild(newElement);
+};
+
 // change prep, line, translation, and attribution to the next element in the shuffled_remember array
 const changeContent = () => {
   currentIndex == shuffled_remember.length - 1
     ? (currentIndex = 0)
     : (currentIndex += 1);
   const next_element = shuffled_remember[currentIndex];
-  inject(next_element);
+
+  document.querySelector('#content').style.opacity = 0;
+  setTimeout(() => {
+    injectNew(next_element);
+    setTimeout(() => {
+      document.querySelector('#content').style.opacity = 1;
+    }, 100);
+  }, 500);
 };
 
 // on throttle clicks by 500ms, change the content
-window.addEventListener('click', throttle(500, changeContent));
+window.addEventListener('click', throttle(1000, changeContent));
