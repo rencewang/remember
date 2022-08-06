@@ -12,10 +12,31 @@
 }
 
 #remember {
-  font-family: 'Times New Roman', 'Songti SC', serif;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+#header {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 #content {
   opacity: 0;
   transition: opacity 0.5s linear;
+  font-family: 'Times New Roman', 'Songti SC', serif;
+}
+
+#prep {
+}
+
+#translation {
+}
+
+#attribution {
+  font-style: italic;
 }

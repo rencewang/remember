@@ -13,7 +13,7 @@ const remember = [
   {
     prep: 'that',
     line: '成为了这样的大人，并不可耻',
-    translation: 'becoming adults like this is not a shame',
+    translation: "becoming adults like this, it's not a shame",
     attribution: '尽管如此，还是',
   },
   {

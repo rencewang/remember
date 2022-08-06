@@ -35,17 +35,17 @@ const inject = (element) => {
 // inject prep, line, translation, and attribution into a newly created div
 const injectNew = (element) => {
   document.querySelector('#content').remove();
+
   const newElement = document.createElement('section');
   newElement.id = 'content';
+  const attribution = element.attribution ? `-${element.attribution}-` : '';
+  const translation = element.translation ? `${element.translation}` : '';
+
   newElement.innerHTML = `
     <div id="prep">${element.prep}</div>
-    <div id="translation">${
-      element.translation ? element.translation : ''
-    }</div>
+    <div id="translation">${translation}</div>
     <div id="line">${element.line}</div>
-    <div id="attribution">${
-      element.attribution ? element.attribution : ''
-    }</div>
+    <div id="attribution">${attribution}</div>
     `;
   rememberContainer.appendChild(newElement);
 };
