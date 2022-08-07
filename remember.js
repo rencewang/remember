@@ -43,7 +43,32 @@ const remember = [
   {
     prep: 'to',
     line: '迷茫的时候走难走的路',
-    translation: "choose the difficult path when you're scared",
+    translation: "choose the difficult path when you're unsure",
+  },
+  {
+    prep: 'that',
+    line: '人生每一步重要的选择，都不能被别人拖后腿',
+    translation:
+      "every important step in your life shouldn't be left to others",
+    attribution: '上海女子图鉴',
+  },
+  {
+    prep: 'that',
+    line: '真正的自由是不会寄托在别人身上的 ',
+    translation: 'true freedom does not depend on others',
+    attribution: '上海女子图鉴',
+  },
+  {
+    prep: 'that',
+    line: '在职场上每个人都是孤单的，如果你觉得自己撑不下去，那只能说明这条路是错的',
+    translation:
+      "in the workplace everyone's lonely, if you feel you can't go on, that means the path is wrong",
+    attribution: '上海女子图鉴',
+  },
+  {
+    prep: 'that',
+    line: '只要你喜欢，我就为你高兴',
+    attribution: '上海女子图鉴',
   },
   {
     prep: 'that',
@@ -153,6 +178,7 @@ const remember = [
   {
     prep: 'to',
     line: '想好了，就去做',
+    attribution: '上海女子图鉴',
   },
   {
     prep: 'that',
@@ -168,6 +194,11 @@ const remember = [
     prep: 'that',
     line: 'you will find someone someday who will actually treat you well',
     attribution: 'White Horse',
+  },
+  {
+    prep: 'to',
+    line: 'give it some time, give yourself some time',
+    attribution: 'boy',
   },
   {
     prep: 'that',
