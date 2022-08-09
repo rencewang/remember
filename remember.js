@@ -417,11 +417,30 @@ const remember = [
     line: '我与他终究都是尘世中人，上天赐给我们最好的天时地利，只在眼下这一瞬。我若抓不住，到了明日，世事浮云，人心惟危，皆是瞬息万变，也许他不再爱我，我不再爱他，那时候翻思今日的面红心热辗转反侧，只会遗憾错失了良机',
     translation:
       "he and I are not saints. Fate has given us the best of times in this moment. If I cannot hold on to this moment, when tomorrow comes, everything might change. Maybe he won't love me, I won't love him. At that time, when I think of today's tossing and turning, anticipation and passion, I will only regret how much we missed.",
+    attribution: '长安古意',
   },
   {
     prep: 'to',
     line: '色禁重，香禁重，这世间万物，皆是淡胜于浓',
     translation:
       'refrain from strong scents and strong passions, all things in this world come better light than strong',
+  },
+  {
+    prep: 'that',
+    line: '即便无恋也无爱，每天也是过得开心的',
+    translation: 'even without love, every can be just as happy',
+  },
+  {
+    prep: 'that',
+    line: 'you are in control',
+  },
+  {
+    prep: 'that',
+    line: 'you will get bored of it in two years but we will stay interesting forever',
+    attribution: 'Little Women',
+  },
+  {
+    prep: 'to',
+    line: 'in the age of deception, still choose to believe',
   },
 ];
