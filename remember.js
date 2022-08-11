@@ -443,4 +443,10 @@ const remember = [
     prep: 'to',
     line: 'in the age of deception, still choose to believe',
   },
+  {
+    prep: 'that',
+    line: '未来有一个人在等待',
+    translation: 'there is someone waiting for you in the future',
+    attribution: '遇见',
+  },
 ];
