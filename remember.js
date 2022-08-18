@@ -449,4 +449,9 @@ const remember = [
     translation: 'there is someone waiting for you in the future',
     attribution: '遇见',
   },
+  {
+    prep: 'that',
+    line: 'somebody loves you for yourself',
+    attribution: 'Wake Up, Sunshine',
+  },
 ];
