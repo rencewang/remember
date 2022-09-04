@@ -68,3 +68,4 @@ const changeContent = () => {
 
 // on throttle clicks by 500ms, change the content
 window.addEventListener('click', throttle(1000, changeContent));
+window.addEventListener('touchstart', throttle(1000, changeContent));
