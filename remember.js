@@ -30,7 +30,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: '人回来，就会离开',
+    line: '人会来，就会离开',
     translation: 'people might come, and so they might leave',
     attribution: '路过人间',
   },
@@ -405,7 +405,7 @@ const remember = [
   {
     prep: 'that',
     line: 'your greatest stories are yours to tell',
-    attribution: 'Chasing Thunder',
+    attribution: 'Stellaris',
   },
   {
     prep: 'to',
@@ -428,7 +428,7 @@ const remember = [
   {
     prep: 'that',
     line: '即便无恋也无爱，每天也是过得开心的',
-    translation: 'even without love, every can be just as happy',
+    translation: 'even without love, every day can be just as happy',
   },
   {
     prep: 'that',
@@ -446,7 +446,7 @@ const remember = [
   {
     prep: 'that',
     line: '未来有一个人在等待',
-    translation: 'there is someone waiting for you in the future',
+    translation: 'there is someone waiting for you down the road',
     attribution: '遇见',
   },
   {
