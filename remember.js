@@ -12,6 +12,16 @@ const remember = [
   },
   {
     prep: 'that',
+    line: 'siempre hay opciones',
+    translation: 'there is always a choice',
+    attribution: 'ELITE',
+  },
+  {
+    prep: 'that',
+    line: 'you can make the decision to leave',
+  },
+  {
+    prep: 'that',
     line: '成为了这样的大人，并不可耻',
     translation: "becoming adults like this, it's not a shame",
     attribution: '尽管如此，还是',
@@ -436,7 +446,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: 'you will get bored of it in two years but we will stay interesting forever',
+    line: 'you will be bored of it in two years but we will stay interesting forever',
     attribution: 'Little Women',
   },
   {
