@@ -69,16 +69,17 @@ const changeContent = () => {
   }, 500);
 };
 
-// on throttle clicks by 500ms, change the content
-window.addEventListener('click', throttle(1000, changeContent));
-window.addEventListener('touchstart', throttle(1000, changeContent));
+// on throttle clicks of circle by 500ms, change the content
+const circle = document.querySelector('#circle');
+circle.addEventListener('click', throttle(1000, changeContent));
+circle.addEventListener('touchstart', throttle(1000, changeContent));
 
 // add spotlight effect as mouse moves
 const spotlight = document.querySelector('#spotlight');
 
 const handleMouseMove = (e) => {
   const { clientX, clientY } = e;
-  spotlight.style.background = `radial-gradient(circle at ${clientX}px ${clientY}px, #00000000 10px, #000000ee 350px)`;
+  spotlight.style.background = `radial-gradient(circle at ${clientX}px ${clientY}px, #ffa45c 10px, #000000 350px)`;
 };
 
 document.addEventListener('mousemove', handleMouseMove);
