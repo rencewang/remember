@@ -57,11 +57,14 @@ const changeContent = () => {
     : (currentIndex += 1);
   const next_element = shuffled_remember[currentIndex];
 
+  document.querySelector('#header').style.opacity = 0;
   document.querySelector('#content').style.opacity = 0;
+
   setTimeout(() => {
     injectNew(next_element);
     setTimeout(() => {
       document.querySelector('#content').style.opacity = 1;
+      document.querySelector('#header').style.opacity = 1;
     }, 100);
   }, 500);
 };

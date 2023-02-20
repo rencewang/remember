@@ -13,22 +13,24 @@
 
 #remember {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -50%);
   text-align: center;
+  pointer-events: none;
 }
 
 #header {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 50px;
   font-weight: 700;
+  transition: opacity 0.5s linear;
 }
 
 #content {
+  font-family: 'Helvetica', 'Arial', sans-serif;
   opacity: 0;
   transition: opacity 0.5s linear;
-  font-family: 'Times New Roman', 'Songti SC', serif;
 }
 
 #prep {
@@ -39,6 +41,18 @@
 
 #attribution {
   font-style: italic;
+}
+
+#circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: 60vw;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #000;
+  cursor: pointer;
 }
 
 #spotlight {
