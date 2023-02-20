@@ -23,7 +23,8 @@
 #header {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 300;
+  text-transform: lowercase;
   transition: opacity 0.5s linear;
 }
 
@@ -31,6 +32,7 @@
   font-family: 'Helvetica', 'Arial', sans-serif;
   opacity: 0;
   transition: opacity 0.5s linear;
+  max-width: 450px;
 }
 
 #prep {
@@ -48,8 +50,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60vw;
-  height: 60vw;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   box-shadow: 0 0 0 1px #000;
   cursor: pointer;

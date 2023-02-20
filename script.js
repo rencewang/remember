@@ -79,7 +79,7 @@ const spotlight = document.querySelector('#spotlight');
 
 const handleMouseMove = (e) => {
   const { clientX, clientY } = e;
-  spotlight.style.background = `radial-gradient(circle at ${clientX}px ${clientY}px, #ffa45c 10px, #000000 350px)`;
+  spotlight.style.background = `radial-gradient(circle at ${clientX}px ${clientY}px, #1e22fa 50px, #f8f8f8 450px)`;
 };
 
 document.addEventListener('mousemove', handleMouseMove);
