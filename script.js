@@ -69,3 +69,13 @@ const changeContent = () => {
 // on throttle clicks by 500ms, change the content
 window.addEventListener('click', throttle(1000, changeContent));
 window.addEventListener('touchstart', throttle(1000, changeContent));
+
+// add spotlight effect as mouse moves
+const spotlight = document.querySelector('#spotlight');
+
+const handleMouseMove = (e) => {
+  const { clientX, clientY } = e;
+  spotlight.style.background = `radial-gradient(circle at ${clientX}px ${clientY}px, #00000000 10px, #000000ee 350px)`;
+};
+
+document.addEventListener('mousemove', handleMouseMove);
