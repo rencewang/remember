@@ -13,8 +13,18 @@
 }
 
 body {
-  background-color: #f8f8f8;
   font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#background {
+  z-index: -100;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 255, 1), rgba(0, 0, 0, 0)),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='5.57' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
 #header {
@@ -83,5 +93,5 @@ body {
   left: 0;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  background: radial-gradient(circle, #5f62f9, #f8f8f8 300px);
+  background: radial-gradient(circle, #feb062, rgba(0, 0, 0, 0) 300px);
 }
