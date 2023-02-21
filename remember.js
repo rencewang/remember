@@ -3,12 +3,12 @@ const remember = [
     prep: 'that',
     line: '你把自己照顾得那么好，愿你遇见另一个自由而独立的灵魂，分享彼此的世界。即便没有遇见，也是很好的：你终究是自由的',
     translation:
-      "you take care of yourself so well. May you find another free and independent soul, and share each other's worlds. Even if you don't, it's all good. At the end of the day, you are free",
+      "you have taken care of yourself so well. May you find another free and independent soul to share each other's worlds. Even if you don't, it's ok too. At the end of the day, you are free",
   },
   {
     prep: 'that',
     line: '即便如此，也没关系',
-    translation: 'even so, everything will be fine',
+    translation: 'even despite it all, everything will be fine',
   },
   {
     prep: 'that',
@@ -23,7 +23,7 @@ const remember = [
   {
     prep: 'that',
     line: '成为了这样的大人，并不可耻',
-    translation: "becoming adults like this, it's not a shame",
+    translation: 'growing up like this is not shameful',
     attribution: '尽管如此，还是',
   },
   {
@@ -41,13 +41,13 @@ const remember = [
   {
     prep: 'that',
     line: '人会来，就会离开',
-    translation: 'people might come, and so they might leave',
+    translation: 'people may come, and so they may leave',
     attribution: '路过人间',
   },
   {
     prep: 'that',
     line: '每个人只能陪你走一段路',
-    translation: 'everyone can only be with you for a part of the way',
+    translation: 'everyone can only be with you for a part of the journey',
     attribution: '山河故人',
   },
   {
@@ -59,7 +59,7 @@ const remember = [
     prep: 'that',
     line: '人生每一步重要的选择，都不能被别人拖后腿',
     translation:
-      "every important step in your life shouldn't be left to others",
+      "the important decisions in your life shouldn't be left to others. You have agency",
     attribution: '上海女子图鉴',
   },
   {
@@ -72,18 +72,19 @@ const remember = [
     prep: 'that',
     line: '在职场上每个人都是孤单的，如果你觉得自己撑不下去，那只能说明这条路是错的',
     translation:
-      "in the workplace everyone's lonely, if you feel you can't go on, that means the path is wrong",
+      "everyone is alone in the workplace. If you feel like you can't go on, then perhaps the path is wrong",
     attribution: '上海女子图鉴',
   },
   {
     prep: 'that',
     line: '只要你喜欢，我就为你高兴',
+    translation: 'I will be happy for you as long as you are happy',
     attribution: '上海女子图鉴',
   },
   {
     prep: 'that',
     line: '你不需要去刻意迎合，真实的你，就很好',
-    translation: "you don't need to pretend to fit in, the real you is enough",
+    translation: "you don't need to pretend to fit in. The real you is enough",
   },
   {
     prep: 'that',
@@ -93,7 +94,7 @@ const remember = [
     prep: 'that',
     line: '我的粉底和眼霜真的很贵，每一滴泪水都要留给值得的人',
     translation:
-      'my concealer and eye concentrates are really expensive, so I save every drop of my tears for someone worthy',
+      'my concealer and eye concentrates are really expensive, so I save every drop of tears for someone worthy',
   },
   {
     prep: 'that',
@@ -123,7 +124,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: "most things don't exist (the Ford Motor Company hardly exists: it's just a time-saving expression for a collection of financial interests), but the here and now do",
+    line: "most things don't exist (the Ford Motor Company hardly exists: it's just a time-saving expression for a collection of financial interests)",
     attribution: 'Succession',
   },
   {
@@ -148,9 +149,15 @@ const remember = [
   },
   {
     prep: 'that',
-    line: '生活不可能像你想象得那么好，但也没有你想象得那么糟。 人的脆弱和坚强都超乎自己的想象。 有时，可能一句话就泪流满面；有时，回过头也发现自己咬着牙走了很长的路。',
+    line: '生活不可能像你想象得那么好，但也没有你想象得那么糟',
     translation:
-      "life will not be as amazing as you imagine, but not as terrible as you imagine either. Our strengths and softness are beyond our imaginations. Sometimes, one sentence is enough to make tears fall; sometimes, you will turn around and see how far you've gone, gritting your teeth",
+      'life will not be as amazing as you imagine, but neither will it be as terrible as you imagine',
+  },
+  {
+    prep: 'that',
+    line: '有时，回过头也发现自己咬着牙走了很长的路',
+    translation:
+      "when you turn around, you will see how far you've come, gritting your teeth",
   },
   {
     prep: 'that',
@@ -161,33 +168,34 @@ const remember = [
   {
     prep: 'that',
     line: '死的人就一直死了，可我们还要活下去',
-    translation: 'the dead will stay dead, but we must carry on',
+    translation: 'the dead will stay dead, but we have to carry on',
   },
   {
     prep: 'that',
-    line: '哪有什么岁月静好，有人替你负重前行',
+    line: '哪有什么岁月静好，只是有人替你负重前行',
   },
   {
     prep: 'that',
     line: '你当时相信的那些事情，会在如今变成美丽风景',
     translation:
-      'the things you believed then, will become the fantastic spectacle of today',
+      'what you believed then will have become the fantastic spectacle of today',
     attribution: '顽固',
   },
   {
     prep: 'that',
     line: '20年后的你还是你，不一样的烟火',
-    translation: 'the you in 20 years will still be the same you',
+    translation:
+      'the you in 20 years will still be the same you, just different fireworks',
     attribution: '我就是我',
   },
   {
     prep: 'to',
     line: '化好妆，继续前行',
-    translation: 'put your makeup on and keep going',
+    translation: 'put on your makeup and keep going',
   },
   {
     prep: 'to',
-    line: '想好了，就去做',
+    line: '准备永远也做不好，想好了，就去做',
     attribution: '上海女子图鉴',
   },
   {
@@ -266,7 +274,7 @@ const remember = [
   },
   {
     prep: 'to',
-    line: 'care for yourself',
+    line: 'selfcare',
   },
   {
     prep: 'to',
@@ -274,7 +282,11 @@ const remember = [
   },
   {
     prep: 'to',
-    line: "lie on the bed listen to Lana Del Rey's Love",
+    line: 'lie on the bed',
+  },
+  {
+    prep: 'to',
+    line: 'nap',
   },
   {
     prep: 'to',
@@ -304,7 +316,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: 'your mom is growing older too',
+    line: 'your mother is growing older too',
     attribution: 'Never Grow Up',
   },
   {
@@ -314,11 +326,7 @@ const remember = [
   },
   {
     prep: 'to',
-    line: 'breathe',
-  },
-  {
-    prep: 'to',
-    line: "do 10 pushups even if it's 12am",
+    line: "exercise a little even if it's 12am",
   },
   {
     prep: 'to',
@@ -367,6 +375,7 @@ const remember = [
   {
     prep: 'that',
     line: 'everything comes with consequence',
+    attribution: 'The Ascension',
   },
   {
     prep: 'that',
@@ -379,7 +388,7 @@ const remember = [
   {
     prep: 'that',
     line: '在你看不见的地方，一切都在发生',
-    translation: 'where you cannot see, everything is happening',
+    translation: 'everything is happening where you cannot see',
   },
   {
     prep: 'to',
@@ -422,13 +431,13 @@ const remember = [
     line: 'every now and then, pause, look around, drink it in',
     attribution: "Grey's Anatomy",
   },
-  {
-    prep: 'that',
-    line: '我与他终究都是尘世中人，上天赐给我们最好的天时地利，只在眼下这一瞬。我若抓不住，到了明日，世事浮云，人心惟危，皆是瞬息万变，也许他不再爱我，我不再爱他，那时候翻思今日的面红心热辗转反侧，只会遗憾错失了良机',
-    translation:
-      "he and I are not saints. Fate has given us the best of times in this moment. If I cannot hold on to this moment, when tomorrow comes, everything might change. Maybe he won't love me, I won't love him. At that time, when I think of today's tossing and turning, anticipation and passion, I will only regret how much we missed.",
-    attribution: '长安古意',
-  },
+  // {
+  //   prep: 'that',
+  //   line: '我与他终究都是尘世中人，上天赐给我们最好的天时地利，只在眼下这一瞬。我若抓不住，到了明日，世事浮云，人心惟危，皆是瞬息万变，也许他不再爱我，我不再爱他，那时候翻思今日的面红心热辗转反侧，只会遗憾错失了良机',
+  //   translation:
+  //     "he and I are not saints. Fate has given us the best of times in this moment. If I cannot hold on to this moment, when tomorrow comes, everything might change. Maybe he won't love me, I won't love him. At that time, when I think of today's tossing and turning, anticipation and passion, I will only regret how much we missed.",
+  //   attribution: '长安古意',
+  // },
   {
     prep: 'to',
     line: '色禁重，香禁重，这世间万物，皆是淡胜于浓',
@@ -437,7 +446,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: '即便无恋也无爱，每天也是过得开心的',
+    line: '即便无恋也无爱，每天也可以是过得开心的',
     translation: 'even without love, every day can be just as happy',
   },
   {
@@ -456,7 +465,7 @@ const remember = [
   {
     prep: 'that',
     line: '未来有一个人在等待',
-    translation: 'there is someone waiting for you down the road',
+    translation: 'there is someone waiting for you',
     attribution: '遇见',
   },
   {
