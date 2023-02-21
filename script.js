@@ -36,20 +36,31 @@ const inject = (element) => {
 
 // inject prep, line, translation, and attribution into a newly created div
 const injectNew = (element) => {
-  document.querySelector('#content').remove();
+  document.querySelector('#content-top').remove();
+  document.querySelector('#content-bottom').remove();
 
-  const newElement = document.createElement('section');
-  newElement.id = 'content';
-  const attribution = element.attribution ? `—${element.attribution}` : '';
-  const translation = element.translation ? `${element.translation}` : '';
+  const newTopElement = document.createElement('section');
+  newTopElement.id = 'content-top';
+  const topLine = element.translation ? element.translation : element.line;
 
-  newElement.innerHTML = `
+  newTopElement.innerHTML = `
     <div id="prep">${element.prep}</div>
+    <div id="line">${topLine}</div>
+    `;
+
+  const newBottomElement = document.createElement('section');
+  newBottomElement.id = 'content-bottom';
+
+  const attribution = element.attribution ? `—${element.attribution}` : '';
+  const translation = element.translation ? element.line : '';
+
+  newBottomElement.innerHTML = `
     <div id="translation">${translation}</div>
-    <div id="line">${element.line}</div>
     <div id="attribution">${attribution}</div>
     `;
-  rememberContainer.appendChild(newElement);
+
+  rememberContainer.appendChild(newTopElement);
+  rememberContainer.appendChild(newBottomElement);
 };
 
 // change prep, line, translation, and attribution to the next element in the shuffled_remember array
@@ -58,12 +69,14 @@ const changeContent = () => {
     ? (currentIndex = 0)
     : (currentIndex += 1);
   const next_element = shuffled_remember[currentIndex];
-  document.querySelector('#content').style.opacity = 0;
+  document.querySelector('#content-top').style.opacity = 0;
+  document.querySelector('#content-bottom').style.opacity = 0;
 
   setTimeout(() => {
     injectNew(next_element);
     setTimeout(() => {
-      document.querySelector('#content').style.opacity = 1;
+      document.querySelector('#content-top').style.opacity = 1;
+      document.querySelector('#content-bottom').style.opacity = 1;
     }, 100);
   }, 500);
 };

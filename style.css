@@ -29,13 +29,22 @@ body {
   text-transform: lowercase;
 }
 
-#content {
+#content-top,
+#content-bottom {
   position: absolute;
-  top: 30%;
-  left: 50%;
   opacity: 0;
   transition: opacity 0.5s linear;
   max-width: 500px;
+}
+
+#content-top {
+  top: 30%;
+  left: 50%;
+}
+
+#content-bottom {
+  bottom: 30%;
+  left: 50%;
 }
 
 #prep {
