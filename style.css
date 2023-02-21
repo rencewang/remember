@@ -12,6 +12,10 @@
   vertical-align: baseline;
 }
 
+*::selection {
+  background: transparent;
+}
+
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
@@ -48,19 +52,13 @@ body {
 }
 
 #content-top {
-  top: 30%;
-  left: 50%;
+  top: calc(50% - 180px);
+  left: calc(50% - 150px);
 }
 
 #content-bottom {
-  bottom: 30%;
-  left: 50%;
-}
-
-#prep {
-}
-
-#translation {
+  bottom: calc(50% - 150px);
+  left: calc(50% + 100px);
 }
 
 #attribution {

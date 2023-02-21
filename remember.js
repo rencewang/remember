@@ -78,7 +78,7 @@ const remember = [
   {
     prep: 'that',
     line: '只要你喜欢，我就为你高兴',
-    translation: 'I will be happy for you as long as you are happy',
+    translation: 'as long as you are happy, I will be happy for you',
     attribution: '上海女子图鉴',
   },
   {
@@ -282,7 +282,7 @@ const remember = [
   },
   {
     prep: 'to',
-    line: 'lie on the bed',
+    line: 'lie in bed',
   },
   {
     prep: 'to',
