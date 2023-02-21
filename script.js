@@ -1,5 +1,3 @@
-const canTouch = !!('ontouchstart' in window);
-
 // shuffle the array of objects
 const shuffle = (array) => {
   const shuffled = array.sort(() => Math.random() - 0.5);
@@ -84,7 +82,6 @@ const changeContent = () => {
 // on throttle clicks of circle by 500ms, change the content
 const circle = document.querySelector('#circle');
 circle.addEventListener('click', throttle(1000, changeContent));
-circle.addEventListener('touchstart', throttle(1000, changeContent));
 
 // add spotlight effect as mouse moves
 const spotlight = document.querySelector('#spotlight');
@@ -95,4 +92,4 @@ const handleMouseMove = (e) => {
   spotlight.style.top = `${clientY}px`;
 };
 
-document.addEventListener('mousemove', handleMouseMove);
+document.addEventListener('pointermove', handleMouseMove);
