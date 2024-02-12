@@ -23,7 +23,7 @@ const remember = [
   {
     prep: 'that',
     line: '成为了这样的大人，并不可耻',
-    translation: 'growing up like this is not shameful',
+    translation: 'there is no shame in growing up like this',
     attribution: '尽管如此，还是',
   },
   {
@@ -35,7 +35,7 @@ const remember = [
   {
     prep: 'that',
     line: '红颜会知己，知音不会难觅',
-    translation: 'love will find you, friends will not be gone',
+    translation: "love will find you, friends won't be gone",
     attribution: '闪光的回忆',
   },
   {
@@ -71,8 +71,6 @@ const remember = [
   {
     prep: 'that',
     line: '在职场上每个人都是孤单的，如果你觉得自己撑不下去，那只能说明这条路是错的',
-    translation:
-      "everyone is alone in the workplace. If you feel like you can't go on, then perhaps the path is wrong",
     attribution: '上海女子图鉴',
   },
   {
@@ -93,8 +91,6 @@ const remember = [
   {
     prep: 'that',
     line: '我的粉底和眼霜真的很贵，每一滴泪水都要留给值得的人',
-    translation:
-      'my concealer and eye concentrates are really expensive, so I save every drop of tears for someone worthy',
   },
   {
     prep: 'that',
@@ -151,7 +147,7 @@ const remember = [
     prep: 'that',
     line: '生活不可能像你想象得那么好，但也没有你想象得那么糟',
     translation:
-      'life will not be as amazing as you imagine, but neither will it be as terrible as you imagine',
+      'life will not be as amazing as you imagine, but nor will it be as terrible as you imagine',
   },
   {
     prep: 'that',
@@ -177,15 +173,11 @@ const remember = [
   {
     prep: 'that',
     line: '你当时相信的那些事情，会在如今变成美丽风景',
-    translation:
-      'what you believed then will have become the fantastic spectacle of today',
     attribution: '顽固',
   },
   {
     prep: 'that',
     line: '20年后的你还是你，不一样的烟火',
-    translation:
-      'the you in 20 years will still be the same you, just different fireworks',
     attribution: '我就是我',
   },
   {
@@ -229,7 +221,7 @@ const remember = [
   },
   {
     prep: 'that',
-    line: "nobody gives a shit, so go live the life that you've always wanted to live",
+    line: "nobody else gives a shit, so go live the life that you've always wanted to live",
   },
   {
     prep: 'that',
@@ -356,7 +348,7 @@ const remember = [
   },
   {
     prep: 'to',
-    line: 'breathe in, breathe out, and decide',
+    line: 'breathe in, breathe out, then decide',
     attribution: "Grey's Anatomy",
   },
   {
@@ -388,7 +380,7 @@ const remember = [
   {
     prep: 'that',
     line: '在你看不见的地方，一切都在发生',
-    translation: 'everything is happening where you cannot see',
+    translation: 'where you cannot see, everything is happening',
   },
   {
     prep: 'to',
@@ -398,8 +390,6 @@ const remember = [
   {
     prep: 'that',
     line: '时间会回答成长，成长会回答梦想',
-    translation:
-      'time will answer the process of growing up, growing up will answer your dream',
     attribution: '入海',
   },
   {
